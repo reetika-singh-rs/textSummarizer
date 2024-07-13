@@ -1,6 +1,5 @@
-from textSummarizer.logging._init_ import logger
+from textSummarizer.logging.__init__ import logger
 
 
 logger.info("Welcome to our logging")
-
 
