@@ -16,4 +16,3 @@ ch.setFormatter(formatter)
 
 # Add ch to logger
 logger.addHandler(ch)
-

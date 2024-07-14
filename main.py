@@ -1,5 +1,4 @@
-from textSummarizer.logging.__init__ import logger
+from task_summarizer_project.logging.__init__ import logger
 
-
-logger.info("Welcome to our logging")
-
+logger = logger()
+logger.info("Welcome to our custom logging")
