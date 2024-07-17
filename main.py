@@ -1,4 +1,9 @@
-from task_summarizer_project.logging.__init__ import logger
+"""
+Main module for text summarization.
 
-logger = logger()
+This module initializes logging and starts the text summarization process.
+"""
+
+from textSummarizer.logging import logger
+
 logger.info("Welcome to our custom logging")
