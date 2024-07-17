@@ -1,4 +1,4 @@
-from textSummarizer.logging.__init__ import logger
+from textSummarizer.logging import logger
 
-# Now you can use the logger object for logging purposes
-logger.info("Logging information")
+logger.info("Welcome to our custom logging")
+
