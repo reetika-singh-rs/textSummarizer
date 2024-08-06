@@ -34,6 +34,16 @@ except Exception as e:
          logger.exception(e)
          raise e
 
+from transformers import TrainingArguments, Trainer
+from transformers import DataCollatorForSeq2Seq
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+
+def main():
+    print("Imports successful!")
+
+if __name__ == "__main__":
+    main()
+
 def main():
     logger.info("This is the main function")
 
